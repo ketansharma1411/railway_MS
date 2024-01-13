@@ -1,0 +1,62 @@
+body{
+    /* background: linear-gradient(to left,red,pink,orange,yellow); */
+    background-image: url("images/background.jpeg");
+    
+    
+}
+a{
+    text-decoration: none;
+}
+.container{
+  margin:10px 10px ;
+  padding-left: 20px;
+  height: 450px;
+  width: 400px;
+  background-color: rgba(4,5,2,0.39);
+  opacity: 1;
+  border:solid black 1px;
+  border-radius: 7px;
+  position: absolute;
+  left: 900px;
+  top: 205px;
+  
+}
+
+.container label{
+    font-size: 30px;
+    line-height: 45px;
+}
+h1{
+    font-size: 50px;
+    margin-left: 50px;
+    padding-top: 13px;
+}
+.container input{
+    height: 27px;
+    width: 350px;
+    border-radius: 3px;
+    border: solid rgb(0, 0, 0) 1px;
+}
+#uy{
+    margin-top:26px;
+    height: 40px;
+    width:350px;
+    border:none;
+    font-size: larger;
+    background: linear-gradient(rgba(0, 0, 0, 0.1),grey,black);
+
+
+}
+#uy:active{
+	transform: scale(0.95);
+}
+#uy:hover{
+    cursor: pointer;
+}
+#passw{
+    margin-bottom: 8px;
+}
+#ui{
+    margin-left: 60px;
+    font-size: 20px;
+}
